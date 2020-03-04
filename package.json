@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "refresh-registry-token": "vsts-npm-auth -config .npmrc",
+    "test": "lerna run --stream test",
+    "test-coverage": "lerna run --stream test -- --coverage",
+    "build": "lerna run --stream build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "resolutions": {
+    "babel-core": "^6.26.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@ar-kit/runtime-env-checks",
+  "version": "1.0.8",
+  "description": "Check runtime environment (server or client)",
+  "main": "index.js",
+  "author": "Nicolas Garfinkiel",
+  "scripts": {
+    "release": "yarn publish --access public"
+  }
+}

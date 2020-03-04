@@ -1,0 +1,49 @@
+---
+id: get-started
+title: Comenzar
+sidebar_label: Comenzar
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Introducción
+
+@ar-kit es un conjunto de paquetes de herramientas RAD (rapid application development) para desarrollar aplicaciones de React escalables, renderizable en servidor/cliente (vía NextJS), con un manejo de estado simple, desacoplado y un flujo de datos, acciones y presentación claros.
+
+Estos paquetes son:
+
+1. @ar-kit/controllers: Manejo de estado y flujo de aplicaciones.
+2. @ar-kit/babel-plugin-controller-add-displayname: Plugin de Babel que completa la propiedad estática __displayName__ de controladores.
+3. @ar-kit/ab-test: Gestión de A/B tests de componentes y feature toggles.
+4. @ar-kit/i18n-loader: Webpack loader para gestión de localización de aplicaciones.
+5. @ar-kit/proxy-server: Koa server para aplicaciones NextJS. Server side routing y proxy para mocks de capa de servicios.
+6. @ar-kit/runtime-env-checks: Simple utilidad para comprobar entorno de ejecución (cliente o servidor).
+
+## Cómo instalar
+
+Simplemente utilizando NPM o Yarn (recomendamos utilizar Yarn):
+
+<Tabs
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn', },
+    { label: 'NPM', value: 'npm', },
+  ]
+}>
+<TabItem value="yarn">
+
+```bash
+yarn add @ar-kit/[NOMBRE_DE_PAQUETE]
+```
+
+</TabItem>
+<TabItem value="npm">
+
+```bash
+npm install @ar-kit/[NOMBRE_DE_PAQUETE]
+```
+
+</TabItem>
+</Tabs>
+

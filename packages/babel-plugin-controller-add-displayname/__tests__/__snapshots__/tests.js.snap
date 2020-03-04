@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add-react-displayname transform transforms classComponents 1`] = `
+"export let TestController = class TestController extends Controller {};
+TestController.displayName = \\"TestController\\";"
+`;

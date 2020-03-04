@@ -1,0 +1,35 @@
+{
+  "name": "@ar-kit/proxy-server",
+  "version": "1.0.8",
+  "description": "BestDay Front-End proxy-server",
+  "main": "index.js",
+  "author": "Nicolas Garfinkiel",
+  "scripts": {
+    "release": "yarn publish --access public"
+  },
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "next": "^9.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "babel-jest": "^24.9.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  },
+  "bin": {
+    "proxy-router": "./index.js"
+  }
+}

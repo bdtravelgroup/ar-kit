@@ -1,0 +1,13 @@
+#tests
+__tests__
+coverage
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+
+jest.config.js
